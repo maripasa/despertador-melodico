@@ -249,10 +249,10 @@ int main(void) {
     SSD1306_scroll(false);
     
     char *welcomeText[] = {
-        "   Bem-Vindo ",
-        " ao EmbarcaTech ",
-        "      2024 ",
-        "  SOFTEX/MCTI "
+        "   Bem-Vindo   ",
+        " ao Despertador",
+        "   Melódico    ",
+        "               "
     };
     int y = 0;
     for (uint i = 0; i < count_of(welcomeText); i++) {
